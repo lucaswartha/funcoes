@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Funções!</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>
+            Funções de 1° Grau
+        </h1>
+    </header>
+            <div class="container1">
+            <h1>Valores</h1>
+            <p>X1: <input type="number" name="num" style="width:100px" id="txtx1" required></p>
+            <p>Y1: <input type="number" name="num" style="width:100px" id="txty1" required></p>
+            <p>X2: <input type="number" name="num" style="width:100px" id="txtx2" required></p>
+            <p>Y2: <input type="number" name="num" style="width:100px" id="txty2" required></p>
+            <p><input class="bton" type="button" value="Calcular" onclick="funcaoprim()" alt="Clique no botão para calcular"></p>
+            <p>A ( <label class="lbtxt" id="txa"></label> ) B ( <label class="lbtxt" id="txb"></label> )</p>
+            </div>
+
+            <div class="container2">
+                <br></br><br>
+            <h1>Descobrir valor dos pontos</h1>
+            <p>X: <input type="number" style="width:100px" name="num" id="verxtxt" required> <input class="bton" type="button" value="Calcular" onclick="calvaly()">  Y = <label class="lbtxt" id="valy"></label></p>
+            <p>Y: <input type="number" style="width:100px" name="num" id="verytxt" required> <input class="bton" type="button" value="Calcular" onclick="calvalx()"> X = <label class="lbtxt" id="valx"></label></p>
+            </div> 
+            
+            <div class="container3">
+                
+            <h1>Valores A e B</h1>
+            <p>
+                A =     <label class="lbtxt" id="lba"></label>
+                <br>B =     <label class="lbtxt" id="lbb"></label>
+                <br>f(x) =     <label class="lbtxt" id="fxtxt"></label>
+                <br>
+                <br> Formula: f(x) = ax + b
+            </p>
+            </div>
+    <script src="script.js"></script>
+</body>
+</html>

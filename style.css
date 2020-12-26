@@ -1,0 +1,91 @@
+body{
+    font-family: 'Roboto Mono 300', monospace;
+    background-color: rgb(70, 142, 236);
+    width: 1250px;
+    height: 500px;
+}
+section{
+    width: 350px;
+    background-color: white;
+    height: 300px;
+    box-shadow: 3px 3px 10px rgb(0,0,0, 0.363);
+    border-radius: 10px;
+}
+header {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+/* Container 1 */
+.container1 {
+    width: 400px;
+    background-color: white;
+    height: 300px;
+    box-shadow: 3px 3px 10px rgb(0,0,0, 0.363);
+    border-radius: 10px;
+    float: left;
+    margin-left: 200px;
+    text-align: center;
+}
+
+.container1 h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+/* Container 2 */
+.container2{
+    width: 400px;
+    background-color: white;
+    height: 300px;
+    box-shadow: 3px 3px 10px rgb(0,0,0, 0.363);
+    border-radius: 10px;
+    float: right;
+    margin-right: 200px;
+    text-align: center;
+}
+.container2 h1 {
+    font-size: 20px;
+}
+
+/* Container 3 */
+.container3 {
+    float: bottom;
+    margin-left: 470px;
+    margin-top: 350px;
+    background-color: white;
+    border-radius: 10px;
+    height: 150px;
+    width: 300px;
+    text-align: center;
+}
+.container3 h1 {
+    font-size: 20px;
+    text-align: center;
+}
+    
+.leg{
+    font-weight: bold;
+}
+.lbtxt{
+    color:rgb(218, 16, 16);
+    font-weight: bold;
+}
+.bton{
+    background-color: #ebebeb;
+    color: rgba(0, 0, 0, 0.781); ;
+    height: 30px;
+    width: 90px;
+    font-weight:bold;
+}
+.bton:hover{
+    background-color: rgb(70, 142, 236);
+}
+
+h1 {
+    font-family: 'Roboto Mono', monospace;
+}
