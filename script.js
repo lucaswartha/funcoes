@@ -7,16 +7,16 @@ function funcaoprim(){
     //verificar campos:
 
     if (nx1.value.length == 0){
-        window.alert('Preencha o campo X1 com um valor numérico e pressione Calcular')
+        window.alert('Você deve preencher todos os campos')
     };
     if (nx2.value.length == 0){
-        window.alert('Preencha o campo X2 com um valor numérico e pressione Calcular')
+        window.alert('Você deve preencher todos os campos')
     };
     if (ny1.value.length == 0){
-        window.alert('Preencha o campo Y1 com um valor numérico e pressione Calcular')
+        window.alert('Você deve preencher todos os campos')
     };
     if (ny2.value.length == 0){
-        window.alert('Preencha o campo Y2 com um valor numérico e pressione Calcular')
+        window.alert('Você deve preencher todos os campos')
     };
     //convert string to number
 
@@ -47,7 +47,7 @@ function funcaoprim(){
 function calvaly(){
     var nx3 = document.getElementById('verxtxt');
     if (nx3.value.length == 0){
-        window.alert('Preencha o campo do valor X com um valor numérico e pressione Calcular Y')
+        window.alert('Você deve preencher todos os campos')
     };
      var pty = Number(nx3.value);
     //var vala = ((iy2-iy1)/(ix2-ix1));
@@ -61,7 +61,7 @@ function calvaly(){
 function calvalx(){
      var ny3 = document.getElementById('verytxt');
     if (ny3.value.length == 0){
-        window.alert('Preencha o campo do valor Y com um valor numérico e pressione Calcular X')
+        window.alert('Você deve preencher todos os campos')
     };
     var ptx = Number(ny3.value);
     //var vala = ((iy2-iy1)/(ix2-ix1));

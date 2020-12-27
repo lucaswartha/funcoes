@@ -1,6 +1,6 @@
 body{
     font-family: 'Roboto Mono 300', monospace;
-    background-color: rgb(70, 142, 236);
+    background-color: rgba(82, 144, 226, 0.938);
     width: 1250px;
     height: 500px;
 }
@@ -8,7 +8,7 @@ section{
     width: 350px;
     background-color: white;
     height: 300px;
-    box-shadow: 3px 3px 10px rgb(0,0,0, 0.363);
+    box-shadow: 3px 3px 10px rgb(0,0,0, 1);
     border-radius: 10px;
 }
 header {
@@ -22,7 +22,7 @@ header {
     width: 400px;
     background-color: white;
     height: 300px;
-    box-shadow: 3px 3px 10px rgb(0,0,0, 0.363);
+    box-shadow: 3px 3px 10px  rgba(59, 59, 59, 0.863);
     border-radius: 10px;
     float: left;
     margin-left: 200px;
@@ -40,9 +40,9 @@ header {
 /* Container 2 */
 .container2{
     width: 400px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     height: 300px;
-    box-shadow: 3px 3px 10px rgb(0,0,0, 0.363);
+    box-shadow: 3px 3px 10px rgba(59, 59, 59, 0.863);
     border-radius: 10px;
     float: right;
     margin-right: 200px;
@@ -62,7 +62,7 @@ header {
     height: 150px;
     width: 300px;
     text-align: center;
-    box-shadow: 3px 3px 10px rgb(0,0,0, 0.363);
+    box-shadow: 3px 3px 10px  rgba(59, 59, 59, 0.863);
 }
 .container3 h1 {
     font-size: 20px;
@@ -82,9 +82,12 @@ header {
     height: 30px;
     width: 90px;
     font-weight:bold;
+    border-radius: 4px;
+    border-left: none;
+    border-right: none;
 }
 .bton:hover{
-    background-color: rgb(70, 142, 236);
+    background-color: rgba(171, 205, 250, 0.671);
 }
 
 h1 {
